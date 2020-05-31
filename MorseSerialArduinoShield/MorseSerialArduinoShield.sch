@@ -300,46 +300,46 @@ Wire Notes Line
 $Comp
 L Device:Buzzer BZ?
 U 1 1 5E8A2230
-P 4550 3100
-F 0 "BZ?" H 4702 3129 50  0000 L CNN
-F 1 "Buzzer" H 4702 3038 50  0000 L CNN
-F 2 "" V 4525 3200 50  0001 C CNN
-F 3 "~" V 4525 3200 50  0001 C CNN
-	1    4550 3100
-	1    0    0    -1  
+P 4100 750
+F 0 "BZ?" H 4252 779 50  0000 L CNN
+F 1 "Buzzer" H 4252 688 50  0000 L CNN
+F 2 "" V 4075 850 50  0001 C CNN
+F 3 "~" V 4075 850 50  0001 C CNN
+	1    4100 750 
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Display_Character:SC39-11SRWA U?
 U 1 1 5E8A0889
-P 4550 1850
-F 0 "U?" H 4550 2517 50  0000 C CNN
-F 1 "SC39-11SRWA" H 4550 2426 50  0000 C CNN
-F 2 "Display_7Segment:Sx39-1xxxxx" H 4550 1300 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11srwa.pdf" H 4550 1850 50  0001 C CNN
-	1    4550 1850
+P 4950 2300
+F 0 "U?" H 4950 2967 50  0000 C CNN
+F 1 "SC39-11SRWA" H 4950 2876 50  0000 C CNN
+F 2 "Display_7Segment:Sx39-1xxxxx" H 4950 1750 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11srwa.pdf" H 4950 2300 50  0001 C CNN
+	1    4950 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E8A1C48
-P 5600 2450
-F 0 "R?" H 5670 2496 50  0000 L CNN
-F 1 "R" H 5670 2405 50  0000 L CNN
-F 2 "" V 5530 2450 50  0001 C CNN
-F 3 "~" H 5600 2450 50  0001 C CNN
-	1    5600 2450
-	1    0    0    -1  
+P 4500 2700
+F 0 "R?" H 4570 2746 50  0000 L CNN
+F 1 "1K" H 4570 2655 50  0000 L CNN
+F 2 "" V 4430 2700 50  0001 C CNN
+F 3 "~" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_POT_TRIM RV?
 U 1 1 5E8A2359
-P 5650 1150
-F 0 "RV?" H 5580 1196 50  0000 R CNN
-F 1 "R_POT_TRIM" H 5580 1105 50  0000 R CNN
-F 2 "" H 5650 1150 50  0001 C CNN
-F 3 "~" H 5650 1150 50  0001 C CNN
-	1    5650 1150
-	1    0    0    -1  
+P 4550 900
+F 0 "RV?" H 4480 946 50  0000 R CNN
+F 1 "R_POT_TRIM" H 4480 855 50  0000 R CNN
+F 2 "" H 4550 900 50  0001 C CNN
+F 3 "~" H 4550 900 50  0001 C CNN
+	1    4550 900 
+	0    1    1    0   
 $EndComp
 $Comp
 L MCU_Module:Arduino_UNO_R3 A?
@@ -350,6 +350,85 @@ F 1 "Arduino_UNO_R3" H 3150 3490 50  0000 C CNN
 F 2 "Module:Arduino_UNO_R3" H 3150 2400 50  0001 C CIN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 3150 2400 50  0001 C CNN
 	1    3150 2400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECADC31
+P 4500 2600
+F 0 "R?" H 4570 2646 50  0000 L CNN
+F 1 "1K" H 4570 2555 50  0000 L CNN
+F 2 "" V 4430 2600 50  0001 C CNN
+F 3 "~" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECAE2EE
+P 4500 2500
+F 0 "R?" H 4570 2546 50  0000 L CNN
+F 1 "1K" H 4570 2455 50  0000 L CNN
+F 2 "" V 4430 2500 50  0001 C CNN
+F 3 "~" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECAE473
+P 4500 2400
+F 0 "R?" H 4570 2446 50  0000 L CNN
+F 1 "1K" H 4570 2355 50  0000 L CNN
+F 2 "" V 4430 2400 50  0001 C CNN
+F 3 "~" H 4500 2400 50  0001 C CNN
+	1    4500 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECAE650
+P 4500 2300
+F 0 "R?" H 4570 2346 50  0000 L CNN
+F 1 "1K" H 4570 2255 50  0000 L CNN
+F 2 "" V 4430 2300 50  0001 C CNN
+F 3 "~" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECAE844
+P 4500 2200
+F 0 "R?" H 4570 2246 50  0000 L CNN
+F 1 "1K" H 4570 2155 50  0000 L CNN
+F 2 "" V 4430 2200 50  0001 C CNN
+F 3 "~" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECAEC2F
+P 4500 2100
+F 0 "R?" H 4570 2146 50  0000 L CNN
+F 1 "1K" H 4570 2055 50  0000 L CNN
+F 2 "" V 4430 2100 50  0001 C CNN
+F 3 "~" H 4500 2100 50  0001 C CNN
+	1    4500 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ECAEFA7
+P 4500 2000
+F 0 "R?" H 4570 2046 50  0000 L CNN
+F 1 "1K" H 4570 1955 50  0000 L CNN
+F 2 "" V 4430 2000 50  0001 C CNN
+F 3 "~" H 4500 2000 50  0001 C CNN
+	1    4500 2000
+	0    1    1    0   
+$EndComp
+Text Notes 4600 4100 0    50   ~ 0
+  pinMode(2, OUTPUT); // top right\n  pinMode(4, OUTPUT); // top left\n  pinMode(5, OUTPUT); // top centre\n  pinMode(6, OUTPUT); // middle\n  pinMode(7, OUTPUT); // Decimal point\n  pinMode(8, OUTPUT); // bottom Right\n  pinMode(10, OUTPUT); // bottom left\n  pinMode(11, OUTPUT);  // bottom\n  pinMode(13, OUTPUT); // Buzzer
 $EndSCHEMATC
