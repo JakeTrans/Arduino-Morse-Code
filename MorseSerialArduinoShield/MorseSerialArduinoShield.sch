@@ -300,12 +300,12 @@ Wire Notes Line
 $Comp
 L Device:Buzzer BZ?
 U 1 1 5E8A2230
-P 4100 750
-F 0 "BZ?" H 4252 779 50  0000 L CNN
-F 1 "Buzzer" H 4252 688 50  0000 L CNN
-F 2 "" V 4075 850 50  0001 C CNN
-F 3 "~" V 4075 850 50  0001 C CNN
-	1    4100 750 
+P 4750 1450
+F 0 "BZ?" H 4902 1479 50  0000 L CNN
+F 1 "Buzzer" H 4902 1388 50  0000 L CNN
+F 2 "" V 4725 1550 50  0001 C CNN
+F 3 "~" V 4725 1550 50  0001 C CNN
+	1    4750 1450
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -329,28 +329,6 @@ F 2 "" V 4430 2700 50  0001 C CNN
 F 3 "~" H 4500 2700 50  0001 C CNN
 	1    4500 2700
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_POT_TRIM RV?
-U 1 1 5E8A2359
-P 4550 900
-F 0 "RV?" H 4480 946 50  0000 R CNN
-F 1 "R_POT_TRIM" H 4480 855 50  0000 R CNN
-F 2 "" H 4550 900 50  0001 C CNN
-F 3 "~" H 4550 900 50  0001 C CNN
-	1    4550 900 
-	0    1    1    0   
-$EndComp
-$Comp
-L MCU_Module:Arduino_UNO_R3 A?
-U 1 1 5E8A2A98
-P 3150 2400
-F 0 "A?" H 3150 3581 50  0000 C CNN
-F 1 "Arduino_UNO_R3" H 3150 3490 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3" H 3150 2400 50  0001 C CIN
-F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 3150 2400 50  0001 C CNN
-	1    3150 2400
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
@@ -431,4 +409,94 @@ F 3 "~" H 4500 2000 50  0001 C CNN
 $EndComp
 Text Notes 4600 4100 0    50   ~ 0
   pinMode(2, OUTPUT); // top right\n  pinMode(4, OUTPUT); // top left\n  pinMode(5, OUTPUT); // top centre\n  pinMode(6, OUTPUT); // middle\n  pinMode(7, OUTPUT); // Decimal point\n  pinMode(8, OUTPUT); // bottom Right\n  pinMode(10, OUTPUT); // bottom left\n  pinMode(11, OUTPUT);  // bottom\n  pinMode(13, OUTPUT); // Buzzer
+Entry Wire Line
+	4550 2400 4650 2500
+$Comp
+L MCU_Module:Arduino_UNO_R3 A?
+U 1 1 5E8A2A98
+P 3150 2400
+F 0 "A?" H 3150 3581 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 3150 3490 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 3150 2400 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 1550 4650 1550
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 5E8A2359
+P 4100 1550
+F 0 "RV?" H 4030 1596 50  0000 R CNN
+F 1 "R_POT_TRIM" H 4030 1505 50  0000 R CNN
+F 2 "" H 4100 1550 50  0001 C CNN
+F 3 "~" H 4100 1550 50  0001 C CNN
+	1    4100 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1700 3650 1550
+Wire Wire Line
+	3650 1550 3950 1550
+Wire Wire Line
+	3650 1700 4100 1700
+Connection ~ 3650 1700
+Wire Wire Line
+	3250 1300 3250 900 
+Wire Wire Line
+	3250 900  5250 900 
+Wire Wire Line
+	5250 900  5250 1550
+Wire Wire Line
+	4850 1550 5250 1550
+Connection ~ 5250 1550
+Wire Wire Line
+	5250 1550 5250 2600
+Wire Wire Line
+	4050 2800 4050 2100
+Wire Wire Line
+	4050 2100 4350 2100
+Wire Wire Line
+	3650 2800 4050 2800
+Wire Wire Line
+	4200 2500 4350 2500
+Wire Wire Line
+	3650 2500 4000 2500
+Wire Wire Line
+	4000 2500 4000 2000
+Wire Wire Line
+	3650 2600 4200 2600
+Wire Wire Line
+	3650 2400 4250 2400
+Wire Wire Line
+	4250 2400 4250 2600
+Wire Wire Line
+	4250 2600 4350 2600
+Wire Wire Line
+	4200 2600 4200 2500
+Wire Wire Line
+	3650 2300 4150 2300
+Wire Wire Line
+	4150 2300 4150 2700
+Wire Wire Line
+	4150 2700 4350 2700
+Wire Wire Line
+	3650 2200 4350 2200
+Wire Wire Line
+	4000 2000 4350 2000
+Wire Wire Line
+	3650 2000 3900 2000
+Wire Wire Line
+	3900 2000 3900 1950
+Wire Wire Line
+	3900 1950 4300 1950
+Wire Wire Line
+	4300 1950 4300 2400
+Wire Wire Line
+	4300 2400 4350 2400
+Wire Wire Line
+	3650 1900 4350 1900
+Wire Wire Line
+	4350 1900 4350 2300
 $EndSCHEMATC
