@@ -122,7 +122,7 @@ U 1 1 5E8A2359
 P 4100 1550
 F 0 "RV1" H 4030 1596 50  0000 R CNN
 F 1 "R_POT_TRIM" H 4030 1505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-15-V15_Vertical" H 4100 1550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical" H 4100 1550 50  0001 C CNN
 F 3 "~" H 4100 1550 50  0001 C CNN
 	1    4100 1550
 	0    1    1    0   
@@ -203,7 +203,7 @@ U 1 1 5E8A0889
 P 5300 2300
 F 0 "U1" H 5300 2967 50  0000 C CNN
 F 1 "SC39-11SRWA" H 5300 2876 50  0000 C CNN
-F 2 "Display_7Segment:Sx39-1xxxxx" H 5300 1750 50  0001 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5300 1750 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11srwa.pdf" H 5300 2300 50  0001 C CNN
 	1    5300 2300
 	1    0    0    -1  
