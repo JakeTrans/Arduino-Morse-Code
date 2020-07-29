@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 5)
     (tracks 79)
     (zones 0)
     (modules 12)
@@ -66,7 +66,7 @@
     (grid_origin 110.998 126.365)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Gerber/"))
   )
 
   (net 0 "")
@@ -809,6 +809,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (gr_line (start 180.848 70.485) (end 180.848 128.905) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 103.378 70.485) (end 180.848 70.485) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 103.378 128.905) (end 103.378 70.485) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 180.848 128.905) (end 103.378 128.905) (layer Edge.Cuts) (width 0.1))
+  (gr_text "Arduino Morse Code\nBeep and Display\nVersion 1.0" (at 165.608 81.915) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
 
   (segment (start 152.888 84.455) (end 155.448 84.455) (width 0.25) (layer B.Cu) (net 1))
