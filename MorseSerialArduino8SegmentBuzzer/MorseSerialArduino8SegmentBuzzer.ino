@@ -63,23 +63,23 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'a':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);    
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      //digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;    
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      //digitalWrite(8, HIGH);      ;  
       dot();
       dash();
     break;
 
 
     case 'b':
-     digitalWrite(4, HIGH);    
-      digitalWrite(6, HIGH);   
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);   
+     digitalWrite(6, HIGH);    
+      digitalWrite(5, HIGH);  ;   
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;   
       dash();
       dot();
       dot();
@@ -87,10 +87,10 @@ void WriteLetter(char letter, bool DecimalPoint)
     break;
 
     case 'c':
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);    
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;    
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;   
 
       dash();
       dot();
@@ -101,10 +101,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'd':
       digitalWrite(2, HIGH);     
-      digitalWrite(6, HIGH);     
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+      digitalWrite(5, HIGH);  ;     
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
       dash();
       dot();
       dot();
@@ -112,19 +112,19 @@ void WriteLetter(char letter, bool DecimalPoint)
 
 
     case 'e':
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);       
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;       
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
       dot();
     break;
 
     case 'f':  
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);     
-      digitalWrite(10, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;     
+      digitalWrite(7, HIGH);  ;  
       dot();
       dot();
       dash();
@@ -133,11 +133,11 @@ void WriteLetter(char letter, bool DecimalPoint)
     
 
     case 'g': 
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);      
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;      
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;   
       dash();
       dash();
       dot();
@@ -147,10 +147,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'h':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(6, HIGH);   
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);     
+     digitalWrite(6, HIGH);   
+      digitalWrite(5, HIGH);  ;   
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;     
       dot();
       dot();
       dot();
@@ -159,17 +159,17 @@ void WriteLetter(char letter, bool DecimalPoint)
 
 
     case 'i': 
-     digitalWrite(4, HIGH);   
-      digitalWrite(10, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(7, HIGH);  ;  
       dot();
       dot();
     break;
 
     case 'j': 
-     digitalWrite(4, HIGH);     
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);     
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
       dot();
       dash();
       dash();
@@ -177,49 +177,49 @@ void WriteLetter(char letter, bool DecimalPoint)
     break;
 
     case 'k':  
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);    
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;    
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
       dash();
       dot();
       dash();
     break;
     
     case 'l':
-     digitalWrite(4, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
       dot();
       dash();
     break;
 
     case 'm': 
-      digitalWrite(5, HIGH);     
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
+      digitalWrite(4, HIGH);  ;     
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
       dash();
       dash(); 
     break;
 
     case 'n':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);    
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;    
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
       dash();
       dot(); 
     break;
 
     case 'o':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);      
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;      
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
       dash();
       dash();
       dash();
@@ -230,10 +230,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'p':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);   
-      digitalWrite(10, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
       dot();
       dash();
       dash();
@@ -243,10 +243,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'q':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);   
-      digitalWrite(8, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;   
+      digitalWrite(10, HIGH);  ;   
       dash();
       dash();
       dot();
@@ -255,9 +255,9 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'r':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(10, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;   
       dot();
       dash();
       dot();
@@ -266,21 +266,21 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     
     case 's':
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);    
-      digitalWrite(8, HIGH);   
-      digitalWrite(11, HIGH); 
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;    
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(8, HIGH);     
       dot();
       dot();
       dot(); 
     break;
 
     case 't': 
-     digitalWrite(4, HIGH);      
-      digitalWrite(6, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(11, HIGH); 
+     digitalWrite(6, HIGH);      
+      digitalWrite(5, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);     
       dash();  
     break;
 
@@ -289,10 +289,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'u':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(11, HIGH); 
+     digitalWrite(6, HIGH);   
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);     
       dot();
       dot();
       dash(); 
@@ -300,8 +300,8 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'v':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(11, HIGH); 
+     digitalWrite(6, HIGH);   
+      digitalWrite(8, HIGH);     
       dot();
       dot();
       dot();
@@ -310,9 +310,9 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'w':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(6, HIGH);      
-      digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(5, HIGH);  ;      
+      digitalWrite(8, HIGH);      ;  
       dot();
       dash();
       dash();
@@ -320,10 +320,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'x':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);     
-      digitalWrite(6, HIGH);      
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
+     digitalWrite(6, HIGH);     
+      digitalWrite(5, HIGH);  ;      
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
       dash();
       dot();
       dot();
@@ -332,10 +332,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'y':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(6, HIGH);      
-      digitalWrite(8, HIGH);   
-      digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(5, HIGH);  ;      
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(8, HIGH);      ;  
       dash();
       dot();
       dash();
@@ -344,9 +344,9 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case 'z':
       digitalWrite(2, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);      
-      digitalWrite(7, HIGH);  
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;      
+      digitalWrite(8, HIGH);      ;  
       dash();
       dash();
       dot();
@@ -359,7 +359,7 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '1':
       digitalWrite(2, HIGH);    
-      digitalWrite(8, HIGH);   
+      digitalWrite(10, HIGH);  ;   
       dot();
       dash();
       dash();
@@ -369,10 +369,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '2':
       digitalWrite(2, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);       
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;       
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
       dot();
       dot();
       dash();
@@ -382,10 +382,10 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '3':
       digitalWrite(2, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);     
-      digitalWrite(8, HIGH);   
-      digitalWrite(7, HIGH);  
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;     
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(8, HIGH);      ;  
       dot();
       dot();
       dot();
@@ -395,9 +395,9 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '4':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(6, HIGH);     
-      digitalWrite(8, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(5, HIGH);  ;     
+      digitalWrite(10, HIGH);  ;   
       dot();
       dot();
       dot();
@@ -406,11 +406,11 @@ void WriteLetter(char letter, bool DecimalPoint)
     break;
 
     case '5':
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);     
-      digitalWrite(8, HIGH);   
-      digitalWrite(11, HIGH); 
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;     
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(8, HIGH);     
       dot();
       dot();
       dot();
@@ -419,12 +419,12 @@ void WriteLetter(char letter, bool DecimalPoint)
     break;
 
     case '6': 
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);    
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;    
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
       dash();
       dot();
       dot();
@@ -435,9 +435,9 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '7':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);     
-      digitalWrite(8, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;     
+      digitalWrite(10, HIGH);  ;   
       dash();
       dash();
       dot();
@@ -447,12 +447,12 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '8':
       digitalWrite(2, HIGH);   
-      digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);    
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);  
+      digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+     digitalWrite(5, HIGH);  ;    
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;  
 
       dash();
       dash();
@@ -464,11 +464,11 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '9':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(6, HIGH);   
-      digitalWrite(8, HIGH);   
-      digitalWrite(7, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(5, HIGH);  ;   
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(8, HIGH);      ;   
       dash();
       dash();
       dash();
@@ -478,11 +478,11 @@ void WriteLetter(char letter, bool DecimalPoint)
 
     case '0':
       digitalWrite(2, HIGH);   
-     digitalWrite(4, HIGH);   
-      digitalWrite(5, HIGH);   
-      digitalWrite(8, HIGH);   
-      digitalWrite(10, HIGH);  
-      digitalWrite(7, HIGH);   
+     digitalWrite(6, HIGH);   
+      digitalWrite(4, HIGH);  ;   
+      digitalWrite(10, HIGH);  ;   
+      digitalWrite(7, HIGH);  ;  
+      digitalWrite(8, HIGH);      ;   
       dash();
       dash();
       dash();
