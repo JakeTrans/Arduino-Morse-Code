@@ -9,14 +9,17 @@ namespace ArduinoMorseCodeSender
 
         private static void Main(string[] args)
         {
-            // Console.WriteLine("Hello World!");
-            _serialPort = new SerialPort();
-            _serialPort.PortName = "COM3";
-            _serialPort.BaudRate = 9600;
+            Console.WriteLine("Morse code serial communication Program:");
+            Console.WriteLine("Finding Ports");
 
-            _serialPort.Open();
+            string postname = "COM3";
 
-            _serialPort.Write("SOS" + "\n");
+            SerialPortCommuication SPC = new SerialPortCommuication();
+
+            SPC.SetupSerialPort(postname);
+            Console.WriteLine("Please enter message:");
+            string message = Console.ReadLine();
+            _serialPort.Write(message + "\n");
 
             _serialPort.Close();
         }
