@@ -1,5 +1,7 @@
+WARNING - The this design has not been tested as a produced PCB
+
 # Arduino-Morse-Code
-Morse code sound and letter view via 7 segment display via serial Connection (arduino sketch plus Net core console app to communicate).  with Kicad project for a Arduino shield (UNO R3)
+Morse code sound and letter view via 7 segment display via BlueTooth (arduino sketch plus Net core console app to communicate).  with Kicad project for a Arduino shield (UNO R3)
 
 
 This project is a simple morse code sounded with and 7-segment display to show the letter or number being sounded out using basic components.  the trimpot acts as a basic volume sontrol.
