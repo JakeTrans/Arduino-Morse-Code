@@ -185,13 +185,10 @@ $EndComp
 Wire Wire Line
 	6400 2600 6350 2600
 NoConn ~ 6350 2700
-NoConn ~ 3650 3000
-NoConn ~ 3650 2900
 NoConn ~ 3650 2700
 NoConn ~ 3650 2100
 NoConn ~ 3650 1800
 NoConn ~ 3050 3400
-NoConn ~ 2950 3400
 NoConn ~ 2650 3000
 NoConn ~ 2650 2800
 NoConn ~ 2650 2600
@@ -204,7 +201,7 @@ NoConn ~ 2650 1900
 NoConn ~ 2650 1700
 NoConn ~ 2650 1600
 Wire Wire Line
-	3250 900  3250 1300
+	3250 900  3250 1200
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EE02302
@@ -216,10 +213,6 @@ F 3 "~" H 3300 3950 50  0001 C CNN
 	1    3300 3950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3250 3400 3250 3950
-Wire Wire Line
-	3250 3950 3300 3950
 NoConn ~ 3150 1300
 NoConn ~ 3050 1300
 $Comp
@@ -273,16 +266,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0103
 U 1 1 5EE0BAD3
-P 3250 850
-F 0 "#PWR0103" H 3250 600 50  0001 C CNN
-F 1 "GND" H 3255 677 50  0000 C CNN
-F 2 "" H 3250 850 50  0001 C CNN
-F 3 "" H 3250 850 50  0001 C CNN
-	1    3250 850 
+P 3550 700
+F 0 "#PWR0103" H 3550 450 50  0001 C CNN
+F 1 "GND" H 3555 527 50  0000 C CNN
+F 2 "" H 3550 700 50  0001 C CNN
+F 3 "" H 3550 700 50  0001 C CNN
+	1    3550 700 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3250 850  3250 900 
 Connection ~ 3250 900 
 Wire Wire Line
 	3650 2800 4050 2800
@@ -295,8 +286,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 1550 6400 2600
 Connection ~ 5650 1550
-Wire Wire Line
-	4300 2100 4950 2100
 Wire Wire Line
 	4150 2700 5150 2700
 Wire Wire Line
@@ -366,17 +355,91 @@ Wire Wire Line
 Wire Wire Line
 	5150 1700 5300 1700
 Wire Wire Line
-	4850 1900 4850 2050
-Wire Wire Line
-	4850 2050 5300 2050
-Wire Wire Line
-	5300 2050 5300 2100
-Wire Wire Line
 	5100 2200 5100 1900
 Wire Wire Line
 	5100 1900 5300 1900
 Wire Wire Line
-	4950 2100 4950 3300
+	4300 2100 5300 2100
 Wire Wire Line
-	4950 3300 5300 3300
+	4850 3300 5300 3300
+Wire Wire Line
+	4850 1900 4850 3300
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 61A275DC
+P 3650 4700
+F 0 "J1" V 3496 4948 50  0000 L CNN
+F 1 "HC_05" V 3587 4948 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 3650 4700 50  0001 C CNN
+F 3 "~" H 3650 4700 50  0001 C CNN
+	1    3650 4700
+	0    1    1    0   
+$EndComp
+NoConn ~ 3350 4500
+Wire Wire Line
+	2950 3400 2950 4300
+Wire Wire Line
+	2950 4300 3450 4300
+Wire Wire Line
+	3450 4300 3450 4500
+Wire Wire Line
+	3550 4500 3550 4150
+Wire Wire Line
+	3550 4150 2500 4150
+Wire Wire Line
+	2500 4150 2500 1200
+Wire Wire Line
+	2500 1200 3250 1200
+Connection ~ 3250 1200
+Wire Wire Line
+	3250 1200 3250 1300
+Wire Wire Line
+	3650 4500 3650 3000
+Wire Wire Line
+	3750 4500 3750 2900
+Wire Wire Line
+	3750 2900 3650 2900
+NoConn ~ 3850 4500
+Wire Wire Line
+	3250 750  3550 750 
+Wire Wire Line
+	3550 750  3550 700 
+Wire Wire Line
+	3250 3850 3200 3850
+Wire Wire Line
+	3200 3950 3300 3950
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 61A52F04
+P 1750 3200
+F 0 "J2" V 1904 3012 50  0000 R CNN
+F 1 "PWR and GND" V 1813 3012 50  0000 R CNN
+F 2 "" H 1750 3200 50  0001 C CNN
+F 3 "~" H 1750 3200 50  0001 C CNN
+	1    1750 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 750  3250 900 
+Wire Wire Line
+	3200 3850 3200 3950
+Wire Wire Line
+	3250 3400 3250 3750
+Wire Wire Line
+	3250 3750 1600 3750
+Wire Wire Line
+	1600 3750 1600 3000
+Wire Wire Line
+	1600 3000 1750 3000
+Connection ~ 3250 3750
+Wire Wire Line
+	3250 3750 3250 3850
+Wire Wire Line
+	3250 900  2400 900 
+Wire Wire Line
+	2400 900  2400 2850
+Wire Wire Line
+	2400 2850 1850 2850
+Wire Wire Line
+	1850 2850 1850 3000
 $EndSCHEMATC
