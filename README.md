@@ -2,7 +2,7 @@
 Morse code sound and letter view via 7 segment display via BlueTooth (arduino sketch plus Net core console app to communicate).  with Kicad project for a Arduino shield (UNO R3) - inculding Bluetooth connectivity and power pins on the PCB (going to Vin)
 
 
-This project is a simple morse code sounded with and 7-segment display to show the letter or number being sounded out using basic components.  the trimpot acts as a basic volume sontrol.
+This project is a simple morse code sound with and 7-segment display to show the letter or number being sounded out using basic components.  the trimpot acts as a basic volume sontrol.
 
 As part on this project I have used:
 
@@ -24,6 +24,6 @@ the .net core app include allows for communication over the serial port without 
 
 a Bluetooth serial App terminal will allow sending of data, I've used : Blue Serial Terminal from the Windows Store  and Ardiuno BLueconnect on Android to send commands.
 
-When fully assembled the Bluetooth modules prevents program so please remove the sheld if uploading code.
+When fully assembled the Bluetooth modules prevents programming so please remove the sheld if uploading code.
 
 If Bluetooth or external power isn't required the parts don't need adding for the design to work.
